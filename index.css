@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 150px;
     background: #d8d8d8;
     width: 200px;
     font-size: 1.3rem;
@@ -29,14 +29,14 @@ body {
 .left button {
     border: 2px solid black;
     color: black;
-    background: #f2f2f2;
+    background: #e7e4e4;
     cursor: pointer;
     font-size: 1rem;
     padding: 0.5rem 2rem;
     border-radius: 0.3rem;
 }
 .container{
-    margin:50px;
+    margin: 20px;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -54,6 +54,7 @@ body {
 
 @media only screen and (max-width: 750px) {
     .container {
+        display: flex;
         flex-direction: column;
         justify-content: centre;
     }
