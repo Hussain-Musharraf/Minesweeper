@@ -45,11 +45,6 @@ function showAllBombs() {
   }
 }
 
-// const resetButton = document.getElementById("reset");
-// resetButton.addEventListener("click", () => {
-//   location.reload();
-// });
-
 function reload() {
   location.reload()
 }
